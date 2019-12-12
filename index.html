@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,7 @@
 <style>
   html,
     body {
-        background-color: #8B6341;
+        background-color: #66ffff;
     }
 
     .col {
@@ -22,24 +23,24 @@
     }
 
     h1 {
-        background-color: #A27F56;
+        background-color: #ccffff;
         position: relative;
         right: 15px;
         width: 1140px;
         text-align: center;
         font-weight: bold;
-        color: #515151
+        color: #000066
     }
 
     h2 {
         font-size: 20px;
-        background-color: #A27F56;
+        background-color: #ccffff;
         position: relative;
         left: 35px;
         font-family: sans-serif;
         font-weight: bold;
         width: 200px;
-      color:#A46956
+      color:#000066
     }
 
     li {
@@ -112,11 +113,11 @@ function makeItem(name, category) {
   items.push(item);
 }
 
-makeItem("cow", "animal");
+makeItem("cat", "animal");
 makeItem("carrot", "vegetable");
 makeItem("coal", "mineral");
-makeItem("cat", "animal");
-makeItem("dog", "animal");
+makeItem("monkey", "animal");
+makeItem("lion", "animal");
 
 addItemsToMain();
 
@@ -186,3 +187,4 @@ new Sortable(mineral, {
     </script>
 </body>
 </html>
+
